@@ -1,4 +1,4 @@
-const dayOfWeek = 'Friday';
+const dayOfWeek = prompt('Enter a day');
 
 if (dayOfWeek === 'Monday') {
   console.log('Ugh I hate Mondays')
@@ -6,7 +6,10 @@ if (dayOfWeek === 'Monday') {
   console.log('Yay I love Saturdays')
 } else if (dayOfWeek === 'Friday') {
   console.log ('Just one more day baby')
+} else {
+  console.log('Meh')
 }
+
 
 const age = 8;
 
