@@ -20,3 +20,17 @@ if (age < 8) {
 } else if (age < 65) {
   console.log('You are an adult. You pay $20')
 }
+
+const password = prompt('Please enter a password');
+
+if (password.length >= 6) {
+  if (password.indexOf(' ') === -1) {
+    console.log('Good job. No spaces.')
+  }
+  else {
+    console.log('Password cannot contain spaces.')
+  }
+
+} else {
+  console.log('Password too short. Must be 6+ characters')
+}
